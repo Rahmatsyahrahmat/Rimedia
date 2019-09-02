@@ -8,4 +8,16 @@
     <string name="don_t_have_an_account_sign_up">Don\'t have an Account? <b>Sign up</b></string>
     <string name="indonesian_social_media_by_rahmatsyah">Indonesian Social Media by <b>Rahmatsyah</b></string>
     <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="phone_number_email_or_username">Phone number, email or username</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="register">Register</string>
+    <string name="register_with_facebook">Register with Facebook</string>
+    <string name="already_have_an_account_log_in">Already have an Account? <b>Log in.</b></string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
