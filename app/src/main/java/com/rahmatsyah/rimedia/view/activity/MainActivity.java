@@ -1,8 +1,10 @@
-package com.rahmatsyah.rimedia;
+package com.rahmatsyah.rimedia.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.rahmatsyah.rimedia.R;
 
 public class MainActivity extends AppCompatActivity {
 
