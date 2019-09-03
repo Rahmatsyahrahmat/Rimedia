@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.rahmatsyah.rimedia.R;
-import com.rahmatsyah.rimedia.view.activity.HomeActivity;
-import com.rahmatsyah.rimedia.view.activity.LikeActivity;
-import com.rahmatsyah.rimedia.view.activity.PostActivity;
-import com.rahmatsyah.rimedia.view.activity.ProfileActivity;
-import com.rahmatsyah.rimedia.view.activity.SearchActivity;
+import com.rahmatsyah.rimedia.view.ui.home.HomeActivity;
+import com.rahmatsyah.rimedia.view.ui.like.LikeActivity;
+import com.rahmatsyah.rimedia.view.ui.post.PostActivity;
+import com.rahmatsyah.rimedia.view.ui.profile.ProfileActivity;
+import com.rahmatsyah.rimedia.view.ui.search.SearchActivity;
 
 
 public class BottomNavigationViewHelper implements BottomNavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemReselectedListener{

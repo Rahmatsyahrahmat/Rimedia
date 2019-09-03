@@ -1,4 +1,4 @@
-package com.rahmatsyah.rimedia.view.activity;
+package com.rahmatsyah.rimedia.view.ui.search;
 
 import androidx.appcompat.app.AppCompatActivity;
 

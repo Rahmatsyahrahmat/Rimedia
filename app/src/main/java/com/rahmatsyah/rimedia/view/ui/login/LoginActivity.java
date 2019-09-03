@@ -1,4 +1,4 @@
-package com.rahmatsyah.rimedia.view.activity;
+package com.rahmatsyah.rimedia.view.ui.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,13 +6,11 @@ import android.os.Bundle;
 
 import com.rahmatsyah.rimedia.R;
 
-public class RegisterActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
-
-
+        setContentView(R.layout.activity_login);
     }
 }
