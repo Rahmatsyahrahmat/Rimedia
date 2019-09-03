@@ -9,10 +9,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".view.activity.RegisterActivity"
-            android:theme="@style/NoActionBar">
+        <activity android:name=".view.activity.ProfileActivity"
+            android:theme="@style/NoAnimation" />
+        <activity android:name=".view.activity.LikeActivity"
+            android:theme="@style/NoAnimation" />
+        <activity android:name=".view.activity.PostActivity"
+            android:theme="@style/NoAnimation" />
+        <activity android:name=".view.activity.SearchActivity"
+            android:theme="@style/NoAnimation" />
+        <activity android:name=".view.activity.HomeActivity"
+            android:theme="@style/NoAnimation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +28,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.activity.LoginActivity"
-            android:theme="@style/NoActionBar">
-
+            android:name=".view.activity.RegisterActivity" />
+        <activity
+            android:name=".view.activity.LoginActivity">
         </activity>
-        <activity android:name=".view.activity.MainActivity"></activity>
     </application>
 
 </manifest>
