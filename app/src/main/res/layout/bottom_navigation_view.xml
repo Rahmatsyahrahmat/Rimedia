@@ -13,7 +13,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:menu="@menu/main_menu"
-            app:labelVisibilityMode="unlabeled">
+            app:labelVisibilityMode="unlabeled"
+            android:background="@android:drawable/screen_background_light">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
     </RelativeLayout>

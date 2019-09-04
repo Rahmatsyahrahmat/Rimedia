@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.rahmatsyah.rimedia.R;
 import com.rahmatsyah.rimedia.utils.BottomNavigationViewHelper;
@@ -40,5 +43,11 @@ public class HomeActivity extends AppCompatActivity {
                 default:
                     super.onBackPressed();
         }
+    }
+    public void toDirectMessage(){
+        viewPager.setCurrentItem(2);
+    }
+    public void toNewStory(){
+        viewPager.setCurrentItem(0);
     }
 }
