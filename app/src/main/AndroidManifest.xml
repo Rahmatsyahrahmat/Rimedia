@@ -11,15 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".view.ui.profile.ProfileActivity"
+        <activity
+            android:name=".view.ui.profile.ProfileActivity"
             android:theme="@style/NoAnimation" />
-        <activity android:name=".view.ui.like.LikeActivity"
+        <activity
+            android:name=".view.ui.like.LikeActivity"
             android:theme="@style/NoAnimation" />
-        <activity android:name=".view.ui.post.PostActivity"
+        <activity
+            android:name=".view.ui.post.PostActivity"
             android:theme="@style/NoAnimation" />
-        <activity android:name=".view.ui.search.SearchActivity"
+        <activity
+            android:name=".view.ui.search.SearchActivity"
             android:theme="@style/NoAnimation" />
-        <activity android:name=".view.ui.home.HomeActivity"
+        <activity
+            android:name=".view.ui.home.HomeActivity"
             android:theme="@style/NoAnimation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".view.ui.register.RegisterActivity" />
-        <activity
-            android:name=".view.ui.login.LoginActivity">
-        </activity>
+        <activity android:name=".view.ui.register.RegisterActivity" />
+        <activity android:name=".view.ui.login.LoginActivity"></activity>
     </application>
 
 </manifest>

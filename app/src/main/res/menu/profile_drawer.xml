@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/menuArchive" android:title="@string/archive" android:icon="@drawable/ic_archive"/>
+    <item android:id="@+id/menuNameTag" android:title="@string/nametag" android:icon="@drawable/ic_name_tag"/>
+    <item android:id="@+id/menuSaved" android:title="@string/saved" android:icon="@drawable/ic_saved"/>
+    <item android:id="@+id/menuCloseFriends" android:title="@string/close_friends" android:icon="@drawable/ic_close_friend"/>
+    <item android:id="@+id/menuDiscoverPeople" android:title="@string/discover_people" android:icon="@drawable/ic_discover_people"/>
+
+</menu>
