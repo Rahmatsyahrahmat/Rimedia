@@ -19,7 +19,19 @@
         android:layout_height="match_parent"
         android:layout_gravity="end"
         android:layoutDirection="locale"
+        app:headerLayout="@layout/nav_header_profile"
         app:menu="@menu/profile_drawer">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:drawableStart="@drawable/ic_settings"
+            android:drawableLeft="@drawable/ic_settings"
+            android:drawablePadding="30dp"
+            android:background="@drawable/background_shape"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/black"/>
 
     </com.google.android.material.navigation.NavigationView>
 

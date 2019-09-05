@@ -47,5 +47,7 @@
     <string name="saved">Saved</string>
     <string name="close_friends">Close Friends</string>
     <string name="discover_people">Discover People</string>
+    <string name="following">Following</string>
+    <string name="you">You</string>
 
 </resources>
