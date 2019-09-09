@@ -5,4 +5,5 @@
     <color name="colorAccent">#000000</color>
     <color name="colorBackground">#F9F9F9</color>
     <color name="colorFacebook">#475992</color>
+    <color name="blur">#86272727</color>
 </resources>
