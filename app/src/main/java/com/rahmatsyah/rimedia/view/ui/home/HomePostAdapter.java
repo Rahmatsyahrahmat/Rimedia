@@ -9,9 +9,10 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
+
 import com.rahmatsyah.rimedia.R;
 import com.rahmatsyah.rimedia.model.Post;
+import com.rahmatsyah.rimedia.utils.GlideApp;
 
 import java.util.ArrayList;
 
@@ -33,8 +34,14 @@ public class HomePostAdapter extends RecyclerView.Adapter<HomePostAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Glide.with(context).load(context.getDrawable(posts.get(position).getImage())).into(holder.postImage);
-        Glide.with(context).load(context.getDrawable(posts.get(position).getImage())).into(holder.postBackground);
+        GlideApp.with(context).load(posts.get(position).getImage()).into(holder.postImage);
+        GlideApp.with(context).load(posts.get(position).getImage()).into(holder.postBackground);
+        holder.postImage.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                return false;
+            }
+        });
     }
 
     @Override
